@@ -7,5 +7,5 @@ var bucketName= '<bucket Name>';
 var mongourl = "<mongo url with port>";
 var username = "<mongo username>";
 var pass = "<mongo pass>";
-var dbName = "<db name>";
+var dbName = "<db Name>";
 
