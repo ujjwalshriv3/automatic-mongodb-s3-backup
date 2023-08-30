@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; 
 
 const AWS = require('aws-sdk');
 const fs = require('fs');
@@ -7,7 +7,7 @@ const url = require('url');
 const exec = require('child_process').exec;
 
 
-const mongoURI = process.env.MONGO_URL; //with port
+const mongoURI = process.env.MONGO_URL; //with the ported 
 const s3Path = process.env.S3_PATH;
 const mongoURIparsed = url.parse(mongoURI);
 const host = mongoURIparsed.host;
